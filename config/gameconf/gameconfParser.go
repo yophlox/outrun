@@ -53,8 +53,8 @@ var Defaults = map[string]interface{}{
 	"DDefaultSubCharacter":   "empty",
 	"DDefaultMainChao":       "empty",
 	"DDefaultSubChao":        "empty",
-	"DStartingRings":         int64(9999999999999),
-	"DStartingRedRings":      int64(9999999999999),
+	"DStartingRings":         int64(90000),
+	"DStartingRedRings":      int64(90000),
 	"DStartingEnergy":        int64(5),
 	"DAllItemsFree":          true,
 }
