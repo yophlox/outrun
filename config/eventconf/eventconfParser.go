@@ -11,9 +11,9 @@ import (
 // defaults
 // default variable names MUST be "D" + (nameOfVariable)
 var Defaults = map[string]interface{}{
-	"DAllowEvents":   false,
+	"DAllowEvents":   true,
 	"DCurrentEvents": []ConfiguredEvent{},
-	"DEnforceGlobal": false,
+	"DEnforceGlobal": true,
 }
 
 var EventTypes = map[string]int64{
