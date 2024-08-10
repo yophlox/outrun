@@ -35,3 +35,5 @@ jobs:
       run: git add outrun.exe -f
     - name: Commit Changes
       run: git commit -m actions
+    - name: Push Changes
+      run: git push  
